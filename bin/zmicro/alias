@@ -9,11 +9,11 @@ help() {
   echo "  zmicro miller <args ...>"
   echo ""
 
-  miller --help
+  mlr --help
 }
 
 version() {
-  miller --version
+  mlr --version
 }
 
 core() {

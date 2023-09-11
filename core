@@ -53,7 +53,7 @@ install() {
 
   # files
   local tmp_file="$name.tar.gz"
-  local source_bin_file="./$name"
+  local source_bin_file="./${name}-${PACKAGE_CORE_VERSION#v}-${platform}-${arch}/mlr"
   # reference: https://github.com/9seconds/mtg/releases
   # example:
   #   https://github.com/johnkerl/miller/releases/download/v6.9.0/miller-6.9.0-darwin-amd64.tar.gz
